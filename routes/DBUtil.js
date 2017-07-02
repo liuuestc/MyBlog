@@ -4,7 +4,7 @@
 
 exports.getUserAndPass=function (){
     var fs = require('fs');
-    var data = fs.readFileSync("Config",'utf8').split("\n");
+    var data = fs.readFileSync("config",'utf8').split("\n");
     return data;
 };
 
