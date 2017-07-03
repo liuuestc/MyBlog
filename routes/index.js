@@ -7,6 +7,8 @@ var db4 = require('../models/article'),
 var db2 = require('../models/uploadFile'),
     Upload = mongoose.model('Upload'),
     FileCmt = mongoose.model('FileCmt');
+
+var dbUtils = require("./DBUtil");
 /*
  *
  *GET home page.
@@ -18,6 +20,11 @@ var db2 = require('../models/uploadFile'),
 router.get('/',function (req,res) {
     res.render("index");
 });
+router.get('/getFile',function (req,res) {
+    var data = dbUtils.getUserAndPass();
+    res.send(data);
+});
+
 
 router.get('/getDocumentList', function(req, res) {
     var id = 0,
