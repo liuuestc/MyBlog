@@ -20,10 +20,10 @@ var dbUtils = require("./DBUtil");
 router.get('/',function (req,res) {
     res.render("index");
 });
-router.get('/getFile',function (req,res) {
-    var data = dbUtils.getUserAndPass();
-    res.send(data);
-});
+// router.get('/getFile',function (req,res) {
+//     var data = dbUtils.getUserAndPass(1);
+//     res.send(data);
+// });
 
 
 router.get('/getDocumentList', function(req, res) {

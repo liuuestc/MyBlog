@@ -13,12 +13,9 @@ var upload = require('./routes/uploads');
 var processor = require('./routes/processor');
 var articles = require('./routes/article');
 
-var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost/PersionalBlog';
-mongoose.connect(dbURI);
+var db = require('./models/db');
 
 var app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -72,23 +69,6 @@ app.use(function(err, req, res, next) {
 
 
 
-//数据库状态记录
-mongoose.connection.on('connected', function () {
-    console.log('Mongoose connected to ' + dbURI);
-});
-mongoose.connection.on('error',function (err) {
-    console.log('Mongoose connection error: ' + err);
-});
-mongoose.connection.on('disconnected', function () {
-    console.log('Mongoose disconnected');
-});
-//进程结束时关闭与数据库的链接
-process.on('SIGINT', function() {
-    mongoose.connection.close(function () {
-        console.log('Mongoose disconnected through app termination');
-        process.exit(0);
-    });
-});
 
 
 module.exports = app;
