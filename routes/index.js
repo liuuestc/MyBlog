@@ -34,7 +34,7 @@ router.get('/getDocumentList', function(req, res) {
         ,function (err, counter) {
             if(!err){
                 if (!counter){
-                    res.render('index',{titles: '<h2 style="margin-left: 30%">没有更多文档了！</h2>',pages:''});
+                    res.render('index1',{titles: '<h2 style="margin-left: 30%">没有更多文档了！</h2>',pages:''});
                 }else {
                     Upload.find(
                         {},
