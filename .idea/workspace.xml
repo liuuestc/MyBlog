@@ -2,140 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff39c0e-7844-45ab-997a-730bc62cfb75" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/bin/mongoose.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/contRun.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/aggregate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/modelA.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONSchema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONexample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geospatial.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/gs_example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/lean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/mapreduce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-across-three-collections.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-existing-doc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-plain-objects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/querybuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/replica-sets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/schema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/schema.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/statics/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/statics/statics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/collection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/SPEC.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/querystream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schemadefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/support/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/bench.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/lib/sliced.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/release-items.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/static.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/website.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/db.js" afterPath="$PROJECT_DIR$/models/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall.done" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.package_versions.json" afterPath="$PROJECT_DIR$/node_modules/.package_versions.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/DBUtil.js" afterPath="$PROJECT_DIR$/routes/DBUtil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/article.js" afterPath="$PROJECT_DIR$/routes/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/uploads.js" afterPath="$PROJECT_DIR$/routes/uploads.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,22 +28,19 @@
       <file leaf-file-name="uploads.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/uploads.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1854">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="82" column="40" lean-forward="true" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-              <folding>
-                <marker date="1499437481730" expanded="true" signature="8520:8538" ph="..." />
-                <marker date="1499437481730" expanded="true" signature="8600:8654" ph="..." />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -184,8 +48,8 @@
       <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            <state relative-caret-position="252">
+              <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -194,18 +58,18 @@
       <file leaf-file-name="processor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/processor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="360">
               <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -224,7 +88,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
+            <state relative-caret-position="739">
               <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
@@ -234,11 +98,18 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
+            <state relative-caret-position="54">
               <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="32" />
               <folding>
                 <element signature="e#277#303#0" expanded="false" />
                 <element signature="e#388#873#0" expanded="false" />
+                <marker date="1499433288580" expanded="true" signature="1218:2070" ph="{...}" />
+                <marker date="1499433288580" expanded="true" signature="1407:1599" ph="{&quot;name&quot;: req.body.username...}" />
+                <marker date="1499433288580" expanded="true" signature="1620:2066" ph="{...}" />
+                <marker date="1499433288580" expanded="true" signature="1642:1865" ph="{...}" />
+                <marker date="1499433288580" expanded="true" signature="1869:1982" ph="{...}" />
+                <marker date="1499433288580" expanded="true" signature="1910:1968" ph="{...}" />
+                <marker date="1499433288580" expanded="true" signature="2005:2056" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -311,9 +182,9 @@
         <option value="$PROJECT_DIR$/routes/DBUtil.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/models/db.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/article.js" />
+        <option value="$PROJECT_DIR$/models/db.js" />
       </list>
     </option>
   </component>
@@ -349,50 +220,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog1" />
+              <option name="myItemId" value="MyBlog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="MyBlog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,11 +378,12 @@
       <workItem from="1499344905107" duration="1528000" />
       <workItem from="1499428348410" duration="3470000" />
       <workItem from="1499436189849" duration="1292000" />
+      <workItem from="1499437788708" duration="335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133433000" />
+    <option name="totallyTimeSpent" value="133768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,13 +401,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19739413" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2761194" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761194" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22553897" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39966834" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -867,14 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -885,7 +721,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/processor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="360">
           <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
         </state>
@@ -893,47 +729,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/uploads.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1854">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
+        <state relative-caret-position="54">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="32" />
           <folding>
             <element signature="e#277#303#0" expanded="false" />
             <element signature="e#388#873#0" expanded="false" />
+            <marker date="1499433288580" expanded="true" signature="1218:2070" ph="{...}" />
+            <marker date="1499433288580" expanded="true" signature="1407:1599" ph="{&quot;name&quot;: req.body.username...}" />
+            <marker date="1499433288580" expanded="true" signature="1620:2066" ph="{...}" />
+            <marker date="1499433288580" expanded="true" signature="1642:1865" ph="{...}" />
+            <marker date="1499433288580" expanded="true" signature="1869:1982" ph="{...}" />
+            <marker date="1499433288580" expanded="true" signature="1910:1968" ph="{...}" />
+            <marker date="1499433288580" expanded="true" signature="2005:2056" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="252">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="82" column="40" lean-forward="true" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-          <folding>
-            <marker date="1499437481730" expanded="true" signature="8520:8538" ph="..." />
-            <marker date="1499437481730" expanded="true" signature="8600:8654" ph="..." />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

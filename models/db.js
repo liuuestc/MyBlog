@@ -3,9 +3,9 @@
  */
 //数据库状态记录
 var dbUtil = require("../routes/DBUtil");
-// '+returenUserandPassString()+'
+//
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost:27017/mypersonalblog';
+var dbURI = 'mongodb://'+returenUserandPassString()+'localhost:27017/mypersonalblog';
 console.log(dbURI);
 mongoose.connect(dbURI);
 mongoose.connection.on('connected', function () {
