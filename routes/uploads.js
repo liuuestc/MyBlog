@@ -10,6 +10,7 @@ var router = express.Router();
 var fs =require('fs'),
     path = require('path'),
     formidable = require('formidable');
+var dbUtil = require('./DBUtil');
 /* GET home page. */
 
 router.get('/', function(req, res) {
@@ -120,7 +121,7 @@ router.get('/getdocProfile/:name', function (req,res) {
             {fileName: title},
             function (err,subject) {
                 if(!err && subject){
-                    var aftertitle = fileInfo(subject[0]);
+                    var aftertitle = dbUtil.fileInfo(subject[0]);
                     FileCmt.find({
                         fileName : title
                         },
@@ -138,7 +139,7 @@ router.get('/getdocProfile/:name', function (req,res) {
                                 var clength = comments.length;
                                 var cms ='';
                                 for(var i=0;i < clength; i++){
-                                    cms += addcomment(comments[i]['content'],comments[i]['name'],comments[i]['createOn']);
+                                    cms += dbUtil.addcomment(comments[i]['content'],comments[i]['name'],comments[i]['createOn']);
                                 }
                                 res.render('files',{title: aftertitle, filename: req.params['name'], comment:cms});
                             }
@@ -177,31 +178,9 @@ router.post('/doc/comment/:filename',function (req,res) {
 
 });
 
-
-
 router.use('/uploadpage',function (req,res) {
     res.render('upload',{'title': "文件上传"});
 });
 
-function fileInfo(subject) {
-    var dt = new Date(subject['createdOn']);
-    var i=0;  //没用
-    var filename = subject['fileName'].split('->>')[0];
-    var title = "<div class='list-group-item' id='getBlog"+ i+ "'><h4 class=" + "list-group-item-heading> <a href='/upload/getdoc/"+subject['fileName']+"'> "+ filename+"</a></h4>" +
-        "<p class='list-group-item-text' style='margin-top: 5px;margin-bottom: 0px'><small>"+
-        " 日期： " + dt.getFullYear() +"-"+ dt.getMonth() +"-" + dt.getDate()+
-        '  ' + dt.getHours() + ':' + dt.getMinutes() + ':' + dt.getSeconds() +
-        "  by：" + subject['name']+ "</small></p></div> ";
-    return title;
-}
-function addcomment(message,name,date) {
-    var dt = new Date(date);
-    var time =  dt.getFullYear() + '-' + dt.getMonth() + '-' + dt.getDate() +
-        '  ' + dt.getHours() + ':' + dt.getMinutes() + ':' + dt.getSeconds();
-    var text = " <div class='row' style='text-align: left'><div class='col-md-12'> <blockquote> <p>" +
-        message +
-        "</p> <small>"+ time + " by:"+" <cite>"+ name+"</cite></small> </blockquote></div></div>";
-    return text;
-}
 
 module.exports = router;

@@ -2,10 +2,11 @@
  * Created by liuuestc on 17-7-4.
  */
 //数据库状态记录
-var dbUtil = require("../routes/DBUtil")
-
+var dbUtil = require("../routes/DBUtil");
+// '+returenUserandPassString()+'
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://'+returenUserandPassString()+'localhost/mypersonalblog';
+var dbURI = 'mongodb://localhost:27017/mypersonalblog';
+console.log(dbURI);
 mongoose.connect(dbURI);
 mongoose.connection.on('connected', function () {
     console.log('Mongoose connected to ' + dbURI);

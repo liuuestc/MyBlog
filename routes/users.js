@@ -48,7 +48,6 @@ router.get('/create',function (req,res) {
 //用户注册时处理函数，不开放。
 router.post('/create',function (req, res) {
         console.log("创建用户");
-        console.log(req.body);
         if (req.body.username == '' || req.body.email == '' ||req.body.password == ''){
             res.redirect('/users/reg');
         }

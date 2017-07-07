@@ -50,7 +50,7 @@ router.get('/getDocumentList', function(req, res) {
                                 var titles = '';
                                 var length = poster.length;
                                 for (var i = 0; i < length ; i ++){
-                                    titles += toTitle(poster[i],i);
+                                    titles += dbUtils.itoTitle(poster[i],i);
                                 }
                                 var idnext = (parseInt(id)+1);
                                 if (length != 8){
@@ -107,7 +107,7 @@ router.get('/doc/:id', function(req, res) {
                                 var titles = '';
                                 var length = poster.length;
                                 for (var i = 0; i < length ; i ++){
-                                    titles += toTitle(poster[i],i);
+                                    titles += dbUtils.itoTitle(poster[i],i);
                                 }
                                 var idnext = (parseInt(id)+1);
                                 if (length != 8){
@@ -153,16 +153,16 @@ router.get('/blog',function (req, res) {
                 for (var i =0 ;i < num; i++){
                     switch (data[i]['subject']){
                         case 'Language' :
-                            titles[0] = hotToTitle(data[i],0);
+                            titles[0] = dbUtils.ihotToTitle(data[i],0);
                             break;
                         case 'Ideology' :
-                            titles[1] = hotToTitle(data[i],1);
+                            titles[1] = dbUtils.ihotToTitle(data[i],1);
                             break;
                         case 'China':
-                            titles[2] = hotToTitle(data[i],2);
+                            titles[2] = dbUtils.ihotToTitle(data[i],2);
                             break;
                         case 'Foreign':
-                            titles[3] = hotToTitle(data[i],3);
+                            titles[3] = dbUtils.ihotToTitle(data[i],3);
                             break;
                     }
                 }
@@ -191,32 +191,5 @@ router.get('/services',function (req, res) {
 router.get('/contact', function (req, res) {
    res.render('contact');
 });
-
-function hotToTitle(subject,i) {
-    var title = "<div id='getBlog"+ i+ "'><a onclick='return false;' href='/articles/article/"+subject['id']+"'> "+ subject['title']+"</a></div> " +
-        "<p style='margin-top: 5px;margin-bottom: 0px'><small>阅读量：" + subject['readNum'] +
-        " 日期： " + subject['createdOn'] +
-        "标签：" + subject['tags']+ "</small></p>";
-    return title;
-}
-//与上面的代码相同，修改为使用js返回的代码
-function toTitle(subject,i) {
-    var dt = new Date(subject['createdOn']);
-    var title = "<div class='list-group-item' id='getBlog"+ i+ "'><h4 class=" + "list-group-item-heading> <a onclick='return false;' href='/upload/getdocProfile/"+subject['fileName']+"'> "+ subject['fileName'].split('->>')[0]+"</a></h4>" +
-        "<p class='list-group-item-text' style='margin-top: 5px;margin-bottom: 0px'><small>"+
-        " 日期： " + dt.getFullYear() +"-"+ dt.getMonth() +"-" + dt.getDate()+
-            '  ' + dt.getHours() + ':' + dt.getMinutes() + ':' + dt.getSeconds() +
-    "  by：" + subject['name']+ "</small></p></div> ";
-    return title;
-}
-//正式使用的代码
-function fileInfo(subject,i) {
-    var dt = new Date(subject['createdOn']);
-    var title = "<div class='list-group-item' id='getBlog"+ i+ "'><h4 class=" + "list-group-item-heading> <a href='/upload/getdoc/"+subject['fileName']+"'> "+ subject['fileName'].split('->>')[0]+"</a></h4>" +
-        "<p class='list-group-item-text' style='margin-top: 5px;margin-bottom: 0px'><small>"+
-        " 日期： " + dt.getFullYear() +"-"+ dt.getMonth() +"-" + dt.getDate()+
-        "          作者：" + subject['name']+ "</small></p></div> ";
-    return title;
-}
 
 module.exports = router;
